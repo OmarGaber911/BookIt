@@ -15,7 +15,8 @@ Responsive UI: Optimized for desktop and mobile screens.
 API Integration: Fetch city data dynamically (mock data available in development mode).
 # installation
 1-git clone https://github.com/OmarGaber911/BookIt.git
-cd BookIt
+
+2-cd BookIt
 # Install Dependencies
 npm install 
 # start the server
