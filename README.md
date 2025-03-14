@@ -1,12 +1,22 @@
-# React + Vite
+# BookIt - Hotel Search and Booking
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Overview
 
-Currently, two official plugins are available:
+BookIt is a modern hotel search and booking application built with React. It allows users to search for cities, select check-in and check-out dates, and find the best hotel deals.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Features
 
-## Expanding the ESLint configuration
+City Search: Auto-suggest city names based on user input.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Date Picker: Select check-in and check-out dates with validation.
+
+Responsive UI: Optimized for desktop and mobile screens.
+
+API Integration: Fetch city data dynamically (mock data available in development mode).
+# installation
+1-git clone https://github.com/OmarGaber911/BookIt.git
+cd BookIt
+# Install Dependencies
+npm install 
+# start the server
+npm run dev
